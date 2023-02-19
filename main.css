@@ -91,7 +91,7 @@ body {
     }
 
     to {
-        background-color: background: url("/photos/Black-Folds.jpg") no-repeat center center fixed;
+        background: url("/photos/Black-Folds.jpg") no-repeat center center fixed;
         opacity: 1;
     }
 }
