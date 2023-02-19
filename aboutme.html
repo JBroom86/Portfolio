@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="/photos/bsn-favicon.png">
+    <link href="https://fonts.google.com/icons?selected=Material%20Icons%3Amenu%3A" rel="stylesheet">
+    <script src="main.js" defer></script>
     <title>Jeremiah Broom - About Me! </title>        
     </title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <a href="home.html">Home</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="resume.html">Resume</a>
-        <a href="project.html">Projects</a>
-    </nav>
+    <ul class="menu">
+        <li><a class="menuItem" id="links" href="home.html">Home</a></li>
+        <li><a class="menuItem" id="links" href="aboutme.html">About Me</a></li>
+        <li><a class="menuItem" id="links" href="resume.html">Resume</a></li>
+        <li><a class="menuItem" id="links" href="project.html">Projects</a></li>
+    </ul>
+    <button class="hamburger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+    </button>
+
     <h1>About Me!</h1>
+
+    <footer>
+        <a class="socials" href="https://www.linkedin.com/in/jeremiahbroom/"><img id="social-icons" src="/photos/linkedin-logo.png" alt="LinkedIn Logo"></a>
+        <a class="socials" href="https://github.com/JBroom86"><img id="social-icons" src="photos/GitHub-Mark.png" alt="Git Hub"></a>
+    </footer>
 </body>
 </html>

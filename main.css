@@ -6,13 +6,19 @@
     box-sizing: border-box;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Heebo', sans-serif;
+    /* color: white; */
 }
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    /* Need to to apply background image */
+    animation: fade-in 1.5s linear both;
+    color: white;
 }
+
 
 .hamburger {
     position: fixed;
@@ -38,9 +44,9 @@ body {
     right: 0;
     bottom: 0;
     z-index: 1;
-    background: url("photos/Black-Folds.jpg");
+    background: /* url("photos/Black-Folds.jpg")*/ black;
     color: white;
-    /* can't figure out how to change the font color of the links */
+    /* When links are cliked there is a small hiccup. Need to figure out how to fix that */
     list-style: none;
     padding-top: 4rem;
     font-size: 25px;
@@ -68,3 +74,17 @@ body {
     margin-top: auto;
     text-align: right;
   }
+
+
+
+  @keyframes fade-in {
+    from {
+        background-color: black;
+        opacity: 0;
+    }
+
+    to {
+        background-color: black;
+        opacity: 1;
+    }
+}
