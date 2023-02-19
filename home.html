@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="/photos/bsn-favicon.png">
+
+    <!-- This is the Material Icon link -->
+    <link href="https://fonts.google.com/icons?selected=Material%20Icons%3Amenu%3A" rel="stylesheet">
+    <script src="main.js" defer></script> <!-- need to add this to all files -->
     <title>Jeremiah Broom - Home</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <a href="home.html">Home</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="resume.html">Resume</a>
-        <a href="project.html">Projects</a>
-    </nav>
-    <h1>Welcome!</h1>
+    <!-- If this works need to add nav and button to all html files -->
+    <ul class="menu">
+        <li><a class="menuItem" href="home.html">Home</a></li>
+        <li><a class="menuItem" href="aboutme.html">About Me</a></li>
+        <li><a class="menuItem" href="resume.html">Resume</a></li>
+        <li><a class="menuItem" href="project.html">Projects</a></li>
+    </ul>
+    <button class="hamburger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+    </button>
+
+    <h1>Jeremiah Broom</h1>
 </body>
 </html>
