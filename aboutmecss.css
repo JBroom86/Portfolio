@@ -80,6 +80,12 @@
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
+  .bio {
+    text-align: center;
+    width: 500px;
+    align-items: center;
+  }
   
   @keyframes fade {
     from {opacity: .4}

@@ -27,6 +27,8 @@ menuItems.forEach(
   )
 
 
+// Photo Carousel Functionality //
+
   let slideIndex = 1;
 showSlides(slideIndex);
 
