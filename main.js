@@ -57,3 +57,9 @@ function showSlides(slide) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// Modal for Projects Page //
+
+const modal = document.getElementById('modal')
+const button = document.getElementById('button')
+const span = document.getElementsByClassName('close')[0]
