@@ -1,0 +1,16 @@
+.intro {
+    margin: auto;
+    margin-top: 20px;;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    align-items: center;
+}
+
+.resumes {
+    margin: 0 auto;
+    padding: 10px;
+    border: 10px;
+  }
