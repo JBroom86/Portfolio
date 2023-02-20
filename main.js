@@ -44,8 +44,8 @@ function currentSlide(pic2) {
 
 function showSlides(slide) {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+  let slides = document.getElementsByClassName("picSlides");
+  let dots = document.getElementsByClassName("dots");
   if (slide > slides.length) {slideIndex = 1}
   if (slide < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {

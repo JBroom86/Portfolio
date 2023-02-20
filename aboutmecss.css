@@ -5,7 +5,7 @@
   }
   
  
-  .mySlides {
+  .picSlides {
     display: none;
   }
   
@@ -60,7 +60,7 @@
   }
   
  
-  .dot {
+  .dots {
     cursor: pointer;
     height: 15px;
     width: 15px;
