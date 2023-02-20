@@ -59,7 +59,3 @@ function showSlides(slide) {
 }
 
 // Modal for Projects Page //
-
-const modal = document.getElementById('modal')
-const button = document.getElementById('button')
-const span = document.getElementsByClassName('close')[0]
