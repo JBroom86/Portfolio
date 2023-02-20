@@ -81,10 +81,16 @@
     animation-duration: 1.5s;
   }
 
+  .about-me {
+    margin: 0 auto;
+    padding: 40px;
+  }
+
   .bio {
-    text-align: center;
+    text-align: left;
     width: 500px;
     align-items: center;
+    letter-spacing: .2rem;
   }
   
   @keyframes fade {

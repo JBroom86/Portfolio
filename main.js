@@ -1,4 +1,4 @@
-// Hamburger Menu Functionality //
+// Hamburger Menu Functionality -- used Free Code Camp as a resource //
 
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
@@ -27,7 +27,7 @@ menuItems.forEach(
   )
 
 
-// Photo Carousel Functionality //
+// Photo Carousel Functionality -- used Free Code Camp as a resource  //
 
   let slideIndex = 1;
 showSlides(slideIndex);
