@@ -42,6 +42,10 @@ h5 {
   text-decoration: none;
 }
 
+.swe:visited, .musician:visited, .dogs:visited {
+  color: white;
+}
+
 .swe:hover {
   color: lightseagreen;
   transition: 1s;
