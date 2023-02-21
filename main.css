@@ -191,3 +191,34 @@ footer {
       background-size: cover;
   }
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+      width: 768px;
+    }
+
+    .bio {
+      width: 400px;
+      padding: 10px;
+      /* overflow-wrap: break-word; */
+    }
+
+    footer {
+      max-width: 768px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    body {
+      max-width: 350px;
+    }
+
+    .bio {
+      max-width: 350px;
+      padding: 10px;
+    }
+
+    footer {
+      max-width: 375px;
+    }
+}
