@@ -42,6 +42,85 @@ h5 {
   text-decoration: none;
 }
 
+.swe:hover {
+  color: lightseagreen;
+  transition: 1s;
+}
+
+.musician:hover {
+  color: yellow;
+  transition: 1s;
+}
+
+.dogs:hover {
+  color: magenta;
+  transition: 1s;
+}
+
+.j:hover {
+  color: #10451d;
+  transition: 0.2s;
+}
+
+.e:hover {
+  color: #155d27;
+  transition: 0.2s;
+}
+
+.r:hover {
+  color: #1a7431;
+  transition: 0.2s;
+}
+
+.ee:hover {
+  color: #208b3a;
+  transition: 0.2s;
+}
+
+.m:hover {
+  color: #25a244;
+  transition: 0.2s;
+}
+
+.i:hover {
+  color: #2dc653;
+  transition: 0.2s;
+}
+
+.a:hover {
+  color: #54d474;
+  transition: 0.2s;
+}
+
+.h:hover {
+  color: #76df90;
+  transition: 0.2s;
+}
+
+.b:hover {
+  color: #7fc992;
+  transition: 0.2s;
+}
+
+.rr:hover {
+  color: #7dc790;
+  transition: 0.2s;
+}
+
+.o:hover {
+  color: #92e6a7;
+  transition: 0.2s;
+}
+
+.oo:hover {
+  color: #b7efc5;
+  transition: 0.2s;
+}
+
+.mm:hover {
+  color: #c3eece;
+  transition: 0.2s;
+}
 
 
 .hamburger {
