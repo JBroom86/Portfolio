@@ -9,10 +9,9 @@
     /* color: white; */
 }
 
-/* html {
-  background: url("/photos/Black-Folds.jpg") no-repeat center center fixed;
-  background-size: cover;
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     min-height: 100vh;
