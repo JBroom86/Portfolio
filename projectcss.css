@@ -20,6 +20,10 @@ img {
     text-align: center;
 }
   
+.popup:hover {
+    color: yellow;
+    transition: 1s;
+}
   
 .popup .popuptext {
     visibility: hidden;
