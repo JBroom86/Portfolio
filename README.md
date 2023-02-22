@@ -15,3 +15,12 @@
 
 <h2>User Stories</h2>
 
+<ul>
+<li>As a Hiring Manager or Technical Recruiter, I would use this site to gain insight on Jeremiah as a person, how his work looks and what he likes to do outside of work.</li>
+<li>As a potential client, I would use Jeremiah's portfolio to get an idea of the type of work he does and how that would suit my needs.</li>
+</ul>
+
+<h2>Wire Frame</h2>
+<img src="Unit 1 project wireframe.jpg">
+
+<h2>Unsolved Mysteries</h2>
