@@ -58,7 +58,7 @@ function showSlides(slide) {
   dots[slideIndex-1].className += " active";
 }
 
-// Modal for Projects Page //
+// Pop-up for Projects Page //
 
 function myFunction() {
   const popup = document.getElementById("myPopup");
