@@ -61,6 +61,6 @@ function showSlides(slide) {
 // Modal for Projects Page //
 
 function myFunction() {
-  var popup = document.getElementById("myPopup");
+  const popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
