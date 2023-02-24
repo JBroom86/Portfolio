@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     /* background-color: black; */
     /* Need to to apply background image */
-    background: url("/photos/Black-Folds.jpg") no-repeat center center fixed;
+    background: url("photos/Black-Folds.jpg") no-repeat center center fixed;
     background-size: cover;
     animation: fade-in 1.5s ease-out both;
     color: white;
@@ -189,7 +189,7 @@ footer {
   }
 
   to {
-      background: url("/photos/Black-Folds.jpg") no-repeat center center fixed;
+      background: url("photos/Black-Folds.jpg") no-repeat center center fixed;
       opacity: 1;
       background-size: cover;
   }
